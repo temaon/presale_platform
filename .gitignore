@@ -25,3 +25,4 @@
 /.idea/
 /config/database.yml
 /config/secrets.yml
+/railways.cache
