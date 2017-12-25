@@ -27,3 +27,4 @@
 /config/secrets.yml
 /railways.cache
 !/app/services/.keep
+/public/assets
