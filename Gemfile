@@ -61,5 +61,5 @@ gem 'devise'
 gem 'rolify'
 #A micro library providing Ruby objects with Publish-Subscribe capabilities
 gem 'wisper', '2.0.0'
-
+#Haml-rails provides Haml generators for Rails
 gem 'haml-rails', '~> 1.0'
