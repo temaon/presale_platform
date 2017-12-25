@@ -9,9 +9,11 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 # A modern, simple and very fast Mysql library for Ruby - binding to libmysql http://github.com/brianmario/mysql2
-gem 'mysql2', '0.4.10'
+gem 'mysql2', '~> 0.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+#Bootstrap 4 Ruby Gem for Rails / Sprockets and Compass.
+gem 'bootstrap', '~> 4.0.0.beta2.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,7 +58,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data
-gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
+gem 'rails_admin'
+gem 'rails_admin_rollincode'
 # Devise is a flexible authentication solution for Rails based on Warden.
 gem 'devise'
 #Very simple Roles library without any authorization enforcement supporting scope on resource object.
@@ -65,3 +68,5 @@ gem 'rolify'
 gem 'wisper', '2.0.0'
 #Haml-rails provides Haml generators for Rails
 gem 'haml-rails', '~> 1.0'
+#Decorators/View-Models for Rails Applications
+gem 'draper', github: 'drapergem/draper'
