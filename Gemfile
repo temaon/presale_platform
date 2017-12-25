@@ -59,3 +59,7 @@ gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
 gem 'devise'
 #Very simple Roles library without any authorization enforcement supporting scope on resource object.
 gem 'rolify'
+#A micro library providing Ruby objects with Publish-Subscribe capabilities
+gem 'wisper', '2.0.0'
+
+gem 'haml-rails', '~> 1.0'
