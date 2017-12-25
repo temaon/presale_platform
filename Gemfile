@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data
 gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
+
+# Devise is a flexible authentication solution for Rails based on Warden.
+gem 'devise'
